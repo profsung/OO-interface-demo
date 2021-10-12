@@ -3,7 +3,7 @@ import javax.swing.JButton;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class Lambda {
+public class Main2Lambda {
 
     public static void main(String[] args) {
 
