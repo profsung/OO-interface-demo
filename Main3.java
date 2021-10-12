@@ -9,6 +9,7 @@ public class Main3 {
 
     }
 
+    // generic programming: type independent
     public static boolean isHeavier(IWeight o1, IWeight o2) {
         if (o1.getWeight() > o2.getWeight())
             return true;
