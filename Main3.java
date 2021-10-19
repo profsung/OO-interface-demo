@@ -5,7 +5,11 @@ public class Main3 {
         Dog d1 = new Dog("Mark", 15);
 
         boolean answer = isHeavier(c1, d1);
-        System.out.println(answer);
+        System.out.println("Is car heavier than dog: " + answer);
+
+        Rock r = new Rock(250);
+        answer = isHeavier(r, d1);
+        System.out.println("Is rock heavier than dog: " + answer);
 
     }
 
